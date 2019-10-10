@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    color: #fff;
+    color: #07334c;
     text-decoration: underline;
 }
 
@@ -66,9 +66,13 @@ h6 {
     width: 100%;
     min-height: 35rem;
     height: 100%;
-    background-color: rgba(0, 46, 102, 0.8);
+    background-color: #fff;
     transform: skewY(4deg);
     transform-origin: bottom right;
+}
+
+.text-blue {
+    color: #07334c;
 }
 
 .masthead .masthead-content h1 {
@@ -114,7 +118,7 @@ h6 {
         padding-right: 10rem;
     }
     .masthead .masthead-content h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
     .masthead .masthead-content p {
         font-size: 1.3rem;
