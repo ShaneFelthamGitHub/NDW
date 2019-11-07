@@ -1,0 +1,101 @@
+section {
+  padding: 2em;
+}
+p {
+  margin-bottom: 0.5em;
+}
+li {
+  color: #83868c;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.929;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+  color: #888;
+}
+.banner_part {
+  background-image: url(../img/water-banner.png);
+}
+.padding_top {
+  padding-top: 30px;
+}
+.section_padding {
+  padding: 80px 0;
+}
+.section_padding h3,
+.section_padding h4 {
+  margin: 1em 0 0.5em;
+}
+.section_top_padding {
+  padding-top: 80px;
+}
+.contact-row {
+  background-color: #8bd4f5;
+}
+.contact-row.white {
+  background-color: #fff;
+}
+.contact-row.white .contact-info .media-body p {
+  color: #2a2a2a;
+}
+.contact-row .form-contact .form-control {
+  background-color: #fff;
+}
+.contact-row .button-contactForm.btn_1 {
+  background-color: #003853;
+}
+.contact-row .contact-info .media-body p {
+  color: #fff;
+  font-size: 1.2em;
+}
+.contact-row .contact-info__icon i {
+  color: #003853;
+  font-size: 35px;
+}
+.contact-row div#msgSubmit {
+  font-size: 1.25em;
+  margin: 1em;
+}
+.contact-row .help-block.with-errors {
+  color: #dc3545 !important;
+}
+.breadcrumb_bg {
+  background-image: url(../img/water-bg-full.jpg);
+}
+.breadcrumb:after {
+  background-color: #fff;
+}
+.breadcrumb .breadcrumb_tittle h2 {
+  color: #003853;
+}
+@media (max-width: 991px) {
+  .banner_part {
+    background-image: none;
+    height: 400px;
+  }
+  .banner_part .banner_text {
+    height: 400px;
+  }
+}
+@media (max-width: 575px) {
+  .section_padding {
+    padding: 70px 0;
+  }
+}
+@media (min-width: 576px) {
+  .single_service {
+    min-height: 370px;
+  }
+}
+@media (min-width: 992px) {
+  .single_service {
+    min-height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .single_service {
+    min-height: 455px;
+  }
+  .our_service {
+    padding-top: 30px;
+  }
+}

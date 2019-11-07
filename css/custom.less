@@ -1,0 +1,137 @@
+// Light Blue : 8bd4f5
+// Dark Blue  : 003853
+
+@light-blue: #8bd4f5;
+@dark-blue : #003853;
+
+section {
+    padding: 2em;
+}
+
+p {
+    margin-bottom: .5em;
+}
+
+li {
+    color: #83868c;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.929;
+    font-size: 14px;
+    margin-bottom: .5em;
+    color: #888;
+}
+
+.banner_part {
+    background-image: url(../img/water-banner.png);
+}
+
+.padding_top {
+    padding-top: 30px;
+}
+
+.section_padding {
+    padding: 80px 0;
+
+    h3,
+    h4 {
+        margin: 1em 0 .5em;
+    }
+}
+
+.section_top_padding {
+    padding-top: 80px;
+}
+
+.contact-row {
+    background-color: @light-blue;
+
+    &.white {
+        background-color: #fff;
+
+        .contact-info .media-body p {
+            color: #2a2a2a;
+        }
+    }
+
+    .form-contact .form-control {
+        background-color: #fff;
+    }
+
+    .button-contactForm.btn_1 {
+        background-color: @dark-blue;
+    }
+
+    .contact-info .media-body p {
+        color    : #fff;
+        font-size: 1.2em;
+    }
+
+    .contact-info__icon i {
+        color    : @dark-blue;
+        font-size: 35px;
+    }
+
+    div#msgSubmit {
+        font-size: 1.25em;
+        margin   : 1em;
+    }
+
+    .help-block.with-errors {
+        color: #dc3545 !important;
+    }
+}
+
+.breadcrumb_bg {
+    // background-image: url(../img/drop-lg.png);
+    // background-image: none;
+    background-image: url(../img/water-bg-full.jpg);
+}
+
+.breadcrumb:after {
+    background-color: #fff;
+    // opacity: 1;
+}
+
+.breadcrumb .breadcrumb_tittle h2 {
+    color: @dark-blue;
+    // background-image: url(../img/drop-lg.png);
+}
+
+@media (max-width: 991px) {
+    .banner_part {
+        background-image: none;
+        height          : 400px;
+
+        .banner_text {
+            height: 400px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .section_padding {
+        padding: 70px 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .single_service {
+        min-height: 370px;
+    }
+}
+
+@media (min-width: 992px) {
+    .single_service {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .single_service {
+        min-height: 455px;
+    }
+
+    .our_service {
+        padding-top: 30px;
+    }
+}
